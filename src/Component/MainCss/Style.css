@@ -1,0 +1,80 @@
+/* font-family: 'Kiwi Maru', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+h3{
+    font-family: 'Kiwi Maru', serif;  
+}
+
+.bgdark {
+    background-color: #070b5d!important;
+}
+.topbanner{
+     background-image: url('../Images/banner3.jpg');
+     height: 400px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.topbanner-heading{
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 80px;
+    color: wheat;
+    font-size: 50px;
+}
+.topbanner-heading2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 50px;
+    color: wheat;
+    font-size: 50px;
+}
+.topbanner-text{
+    position: absolute;
+   
+   
+}
+.topbanner-img{
+    width: 322px;
+    float: right;
+    margin-top: 27px;
+    margin-right: 200px;
+    border: 10px solid #05055d;
+    border-radius: 20px;
+    height: 350px;
+    box-shadow: blueviolet;
+    box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+-webkit-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+-moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+}
+ .service-wrepar{
+     background-color: aliceblue;
+ }
+ .service-div{
+    width: 500px;
+    background-color: beige;
+ 
+    
+    border: 1px solid #05055d;
+    border-radius: 65px;
+    box-shadow: blueviolet;
+    box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -webkit-box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+    padding: 20px;
+    z-index: auto;
+    text-align: center;
+    color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    position: relative;
+ }
