@@ -78,3 +78,38 @@ h3{
     margin-top: -20px;
     position: relative;
  }
+ .service-btn{
+    width: 350px;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    
+    border: 1px solid #05055d;
+    border-radius: 65px;
+    box-shadow: blueviolet;
+    box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -webkit-box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+ }
+ .myecprience-img{
+     background-image: url(../Images/Group.png);
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+ }
+ .myecprience-heading{
+    margin-top: 50px;
+    position: relative;
+    color: #efece8;
+   text-align: center;
+    font-size: 70px;
+   
+ }
