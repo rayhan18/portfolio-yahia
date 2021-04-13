@@ -123,6 +123,7 @@ h3{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    background: #5b7cf3;
  }
  .service-card:hover{
     background: rgb(92,28,186);
@@ -161,3 +162,26 @@ h3{
     transform: none;
     }
     } 
+    .about-img{
+        background:url('../Images/aboutBanner.png');
+        height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+    }
+    .about-col{
+        
+        padding: 25px;
+        background: content-box;
+        color: white;
+        box-shadow: blueviolet;
+    box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -webkit-box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+    -moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+    border-radius: 15px;
+   
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+       
+    }

@@ -3,9 +3,14 @@ import './App.css';
 import TopNavbar from './Component/Navigation/ButtonAppBar';
 import TopBanner from './Component/TobBanner/TopBanner';
 import Service from './Component/Service/Service';
-import MyExperience from './Component/About/MyExperience';
-import ExtraService from './Component/About/ExtraService';
+import MyExperience from './Component/Service/MyExperience';
+import ExtraService from './Component/Service/ExtraService';
+import AboutMe from './Component/About/AboutMe';
 
+
+const bodyStyle={
+
+}
 
 function App() {
   return (
@@ -15,6 +20,7 @@ function App() {
       <Service/>
       <MyExperience/>
       <ExtraService/>
+      <AboutMe/>
     </div>
   );
 }

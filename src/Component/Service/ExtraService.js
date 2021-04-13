@@ -11,7 +11,12 @@ export default class ExtraService extends Component {
         }
     }
     render() {
-    
+     const pStyle={
+        background: '#05057b',
+        marginTop: '27px',
+        color:' wheat',
+        marginLeft: '60px'
+     }
         return (
             <div>
                 <Container className="fadeInUp bg-info p-3 b mt-5">
@@ -39,7 +44,7 @@ export default class ExtraService extends Component {
                           )
                       })  
                     }
-                   <p className="ml-3">"QUALITY IN A SERVICE OR PRODUCT IS NOT WHAT YOU PUT INTO IT.
+                   <p style={pStyle} className="p-2 ">"QUALITY IN A SERVICE OR PRODUCT IS NOT WHAT YOU PUT INTO IT.
                     IT IS WHAT THE CUSTOMER GETS OUT OF IT."
                     - PETER DRUCKER  -
                     </p>

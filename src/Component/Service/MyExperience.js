@@ -10,7 +10,7 @@ export default class MyExperience extends Component {
         }
         return (
             <Fragment>
-                <Container fluid={true} className=' myecprience-img mt-5'>
+                <Container fluid={true} className='fadeInUp myecprience-img mt-5'>
                   
                     <h2 className="myecprience-heading mt-5">My Service</h2>
                     
