@@ -4,6 +4,7 @@ import TopNavbar from './Component/Navigation/ButtonAppBar';
 import TopBanner from './Component/TobBanner/TopBanner';
 import Service from './Component/Service/Service';
 import MyExperience from './Component/About/MyExperience';
+import ExtraService from './Component/About/ExtraService';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <TopBanner/>
       <Service/>
       <MyExperience/>
+      <ExtraService/>
     </div>
   );
 }

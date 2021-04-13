@@ -1,10 +1,13 @@
 import React, { Component, Fragment } from 'react'
 import bg from '../Images/Group.png'
 import yahia from '../Images/banner.jpg'
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row,Col,Card,Button  } from 'react-bootstrap'
 
 export default class MyExperience extends Component {
     render() {
+        const colStyle={
+            marginTop: '-70px'
+        }
         return (
             <Fragment>
                 <Container fluid={true} className=' myecprience-img mt-5'>
@@ -18,15 +21,64 @@ export default class MyExperience extends Component {
                 </Container>
                <Container>
                {/* https://www.taxpro.co.za/services */}
+
+               <Row>
+                   <Col style={colStyle} xs={12} sm={12} md={6} lg={3}>
+                   <Card style={{ width: '16rem' ,height: '430px'}} className="service-card">
+                        <Card.Body>
+                            <Card.Title className="text-center">NEGOTIATION</Card.Title>
+                          
+                            <Card.Text>
+                            We speak to SARS on your behalf and navigate the complexities of dealing with outstanding debt. Using experience,
+                             expertise and professionalism, we deal directly with SARS, leaving you free to go about your business.
+                            </Card.Text>
+                            
+                        </Card.Body>
+                        </Card>
+                   </Col>
+                   <Col style={colStyle} xs={12} sm={12} md={6} lg={3}>
+                   <Card style={{ width: '16rem' ,height: '430px'}} className="service-card">
+                        <Card.Body>
+                            <Card.Title className="text-center">SETTLEMENT</Card.Title>
+                          
+                            <Card.Text>
+                            Through expert negotiation and an understanding of SARS systems, we negotiate with the Receiver to reach the best possible outcome for your tax debt.
+
+​
+                            </Card.Text>
+                            
+                        </Card.Body>
+                        </Card>
+                   </Col>
+                   <Col style={colStyle} xs={12} sm={12} md={6} lg={3}>
+                   <Card style={{ width: '16rem',height: '430px' }} className="service-card">
+                        <Card.Body>
+                            <Card.Title className="text-center">COMPROMISE</Card.Title>
+                          
+                            <Card.Text>
+                            After assessing your situation, we approach SARS with a compromise proposal. If accepted, this will reduce the outstanding 
+                            amount owed to SARS by you, effectively saving you money while still allowing you to reach tax compliance.
+                            </Card.Text>
+                            
+                        </Card.Body>
+                        </Card>
+                   </Col>
+                   <Col style={colStyle} xs={12} sm={12} md={6} lg={3}>
+                   <Card style={{ width: '16rem',height: '430px' }} className="service-card">
+                        <Card.Body>
+                            <Card.Title className="text-center">DEFERRAL</Card.Title>
+                          
+                            <Card.Text>
+                            We analyse your cash flow and requirements to establish an acceptable repayment plan.
+                             We present this application to SARS and negotiate the details on your behalf.
+                            </Card.Text>
+                            
+                        </Card.Body>
+                        </Card>
+                   </Col>
+               </Row>
                </Container>
-                <h6>If you owe money to SARS in the form of unpaid taxes, the consequences could be very serious. 
-                             At TDM, we understand the urgency and sensitivity of these matters,
-                             and will help you to settle your tax debt and avoid potential criminal prosecution.
-                                At TDM, we pride ourselves in our 100% success rate in negotiating settlements and compromises
-                                between SARS and those who owe tax debts.  Our professional, experienced team,
-                                under the leadership of a Master Tax Practitioner, has successfully resolved over one billion
-                                Rand in tax debt and saved  clients hundreds of millions of Rand. 
-                                Contact us to find out how we can help you.</h6>
+              
             </Fragment>
         )
     }
