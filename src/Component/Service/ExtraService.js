@@ -19,7 +19,8 @@ export default class ExtraService extends Component {
      }
         return (
             <div>
-                <Container className="fadeInUp bg-info p-3 b mt-5">
+                <Container fluid={true} className="serviceBg">
+                <Container className="fadeInUp  p-3 b mt-5">
                     <div className="mt-5 service-card">
                         
                 <h6 style={{lineHeight: '29px'}}>If you owe money to SARS in the form of unpaid taxes, the consequences could be very serious. 
@@ -50,7 +51,7 @@ export default class ExtraService extends Component {
                     </p>
                 </Row>
                 </Container>
-
+                </Container>
                 
             </div>
         )

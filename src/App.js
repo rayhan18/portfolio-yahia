@@ -6,6 +6,7 @@ import Service from './Component/Service/Service';
 import MyExperience from './Component/Service/MyExperience';
 import ExtraService from './Component/Service/ExtraService';
 import AboutMe from './Component/About/AboutMe';
+import Footer from './Component/Footer/Footer';
 
 
 const bodyStyle={
@@ -21,6 +22,7 @@ function App() {
       <MyExperience/>
       <ExtraService/>
       <AboutMe/>
+      <Footer/>
     </div>
   );
 }

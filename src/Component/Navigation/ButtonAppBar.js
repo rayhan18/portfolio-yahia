@@ -7,20 +7,16 @@ export default class ButtonAppBar extends Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="lg"  variant="dark bgdark">
-            <Navbar.Brand href="#home">Yahia</Navbar.Brand>
+            <Navbar.Brand href="#home" className="ml-5">YEHYA SHABAN</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                
+              <Nav className="mr-auto ml-5">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#service">Service</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
-              <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                  Dank memes
-                </Nav.Link>
-              </Nav>
+             
             </Navbar.Collapse>
           </Navbar>
       </div>

@@ -12,7 +12,7 @@ export default class TopBanner extends Component {
                <Container fluid={true} className="topbanner">
                  <Row>
                      <Col className="topbanner-text">
-                     <h2 className="topbanner-heading">I AM YAHIA</h2>
+                     <h2 className="topbanner-heading">I AM YEHYA SHABAN</h2>
                     
                      <h3 className="topbanner-heading2">
                      
