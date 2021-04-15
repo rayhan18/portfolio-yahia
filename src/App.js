@@ -9,20 +9,16 @@ import AboutMe from './Component/About/AboutMe';
 import Footer from './Component/Footer/Footer';
 
 
-const bodyStyle={
-
-}
-
 function App() {
   return (
     <div >
       <TopNavbar/>
-      <TopBanner/>
+      {/* {/* <TopBanner/>
       <Service/>
       <MyExperience/>
-      <ExtraService/>
-      <AboutMe/>
-      <Footer/>
+      <ExtraService/> */}
+      {/* <AboutMe/> */}
+      <Footer/> 
     </div>
   );
 }

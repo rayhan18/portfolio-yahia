@@ -3,6 +3,9 @@ import { Container, Row,Col,Button } from 'react-bootstrap'
 
 export default class Service extends Component {
     render() {
+        const serviceName=[
+            'Tex & Vat','Zakat','Audit',' Internal Revenue Service','Interest Deduction Worksheet','Accounting'
+        ]
         return (
             <div>
                 <Container fluid={true} className="service-wrepar">
@@ -12,29 +15,17 @@ export default class Service extends Component {
                         </div>
                         <h3 className="text-center mt-5">I Have Got Answers</h3><hr/>
                         <Row>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  >Tex & Vat</Button>
+                            {
+                               serviceName.map(service=>{
+                                   return(
+                                    <Col xs={12} sm={6} md={4} lg={4}>
+                            <Button variant="outline-primary service-btn "  >{service}</Button>                                                      
+                            </Col>
+                                   )
+                               }) 
+                            }
                             
                             
-                            </Col>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  >Zakat</Button>
-                            
-                            
-                            </Col>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  >Audit</Button>
-                            
-                            </Col>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  > Internal Revenue Service</Button>
-                            </Col>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  > Interest Deduction Worksheet</Button>
-                            </Col>
-                            <Col xs={12} sm={6} md={4} lg={4}>
-                            <Button variant="outline-primary service-btn "  >Accounting</Button>
-                            </Col>
                         </Row>
 
                      </Container>
