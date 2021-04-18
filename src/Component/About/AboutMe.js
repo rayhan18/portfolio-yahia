@@ -5,7 +5,7 @@ export default class AboutMe extends Component {
     render() {
         return (
             <div>
-                <Container fluid={true} className="about-img">
+                <Container fluid={true} className="about-img fadeInUp">
                     <div className="">
                        
                     </div>
@@ -24,7 +24,7 @@ export default class AboutMe extends Component {
                           <li className="text-capitalize">DipIFR Diploma in international financial reporting standards from ACCA</li>
                         <li className="text-capitalize">Certla certificate in international auditing from ACCA .</li>
                         <li className="text-capitalize">ACCA certifications are allowed</li><hr/>
-                        <h3> curent psotion</h3>
+                        <h3> Curent psotion</h3>
 
                         <li>SENIOR AUDITOR AND BOOKKEEPER, IBRAHIM IKHTABY APA, MEMBER OF INTEGRA INTERNATIONAL</li>
                         </Col>

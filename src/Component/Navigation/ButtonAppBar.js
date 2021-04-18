@@ -1,16 +1,12 @@
 import React, { Component } from 'react'
 import {Navbar,Nav,NavDropdown}from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {HashRouter, NavLink,Route} from 'react-router-dom'
-import TopBanner from '../TobBanner/TopBanner';
-import Footer from '../Footer/Footer';
-import AboutMe from '../About/AboutMe';
-import Servicepage from '../../Pages/Servicepage';
-import HomePage from '../../Pages/HomePage';
+import { NavLink} from 'react-router-dom'
+
 export default class ButtonAppBar extends Component {
   render() {
     return (
-      <HashRouter>
+    
       <div>
         <Navbar collapseOnSelect expand="lg"  variant="dark bgdark">
             <Navbar.Brand href="/" className="ml-5">YEHYA SHABAN</Navbar.Brand>
@@ -26,14 +22,9 @@ export default class ButtonAppBar extends Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <div>
-          <Route path="/" component={HomePage }/>
-          <Route path="/Service" component={Servicepage}/>
-          <Route path="/About" component={AboutMe}/>
-          <Route path="/Contact" component={Footer}/>
-          </div>
+          
       </div>
-      </HashRouter>
+     
     )
   }
 }

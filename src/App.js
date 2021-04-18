@@ -5,21 +5,16 @@ import TopBanner from './Component/TobBanner/TopBanner';
 import Service from './Component/Service/Service';
 import MyExperience from './Component/Service/MyExperience';
 import ExtraService from './Component/Service/ExtraService';
-import AboutMe from './Component/About/AboutMe';
-import Footer from './Component/Footer/Footer';
+import HomePage from './Pages/HomePage';
+import AppRoute from './AppRoute/AppRoute';
+import {BrowserRouter} from 'react-router-dom'
 
 
 function App() {
   return (
-    <div >
-      <TopNavbar/>
-      {/* {/* <TopBanner/>
-      <Service/>
-      <MyExperience/>
-      <ExtraService/> */}
-      {/* <AboutMe/> */}
-      <Footer/> 
-    </div>
+   <BrowserRouter>
+    <AppRoute/>
+   </BrowserRouter>
   );
 }
 

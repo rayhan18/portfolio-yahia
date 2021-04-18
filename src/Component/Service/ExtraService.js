@@ -11,12 +11,7 @@ export default class ExtraService extends Component {
         }
     }
     render() {
-     const pStyle={
-        background: '#05057b',
-        marginTop: '27px',
-        color:' wheat',
-        marginLeft: '60px'
-     }
+     
         return (
             <div>
                 <Container fluid={true} className="serviceBg">
@@ -36,16 +31,16 @@ export default class ExtraService extends Component {
                     {
                      this.state.exservice.map(service=>{
                           return(
-                            <Col xs={12} sm={12} md={3} lg={3} className="mb-1 key={key}">
+                            <Col xs={12} sm={12} md={3} lg={3} className="mb-1 " key={service.id}>
                             <div className="mt-5 border p-1 text-center  "> 
-                              <h4 className="text-uppercase text-white">{service} </h4>
+                              <h4 className="text-uppercase text-white fSize">{service} </h4>
                              </div>
 
                            </Col>
                           )
                       })  
                     }
-                   <p style={pStyle} className="p-2 ">"QUALITY IN A SERVICE OR PRODUCT IS NOT WHAT YOU PUT INTO IT.
+                   <p  className="p-2 pStyle">"QUALITY IN A SERVICE OR PRODUCT IS NOT WHAT YOU PUT INTO IT.
                     IT IS WHAT THE CUSTOMER GETS OUT OF IT."
                     - PETER DRUCKER  -
                     </p>

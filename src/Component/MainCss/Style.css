@@ -45,7 +45,7 @@ h3{
 }
 .topbanner-img{
     width: 322px;
-    float: right;
+    /* float: right; */
     margin-top: 27px;
     margin-right: 200px;
     border: 10px solid #05055d;
@@ -55,6 +55,7 @@ h3{
     box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
 -webkit-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
 -moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+margin-left: -38px;
 }
  .service-wrepar{
      background-color: aliceblue;
@@ -206,3 +207,9 @@ h3{
         margin-top: 50px;
         color: white;
     }
+    .pStyle{
+        background: #05057b;
+        margin-top: 27px;
+        color:wheat;
+        margin-left: 60px;
+     }

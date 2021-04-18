@@ -1,0 +1,121 @@
+@media (min-width: 420px) and (max-width: 575px) {
+    .topbanner-heading{
+        font-size: 30px;
+        font-weight: 100px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .topbanner-heading2{
+        font-size: 19px;
+        font-weight: 200px;
+    }
+    .topbanner-img{
+        width: 260px;
+        height: 180px;
+        margin-left: 37px;
+    }
+    .service-div {
+        width: 338px;
+    }
+    .service-card{
+        margin-left: 58px;
+        margin-bottom: 82px;
+    }
+    .pStyle{
+         margin-left: 0px;
+    }
+    .about-img{
+        height: auto;
+    }
+    .footer-img{
+        height: 342px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .topbanner-heading{
+        font-size: 43px;
+        font-weight: 200px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .topbanner-heading2{
+        font-size: 27px;
+        
+    }
+    .topbanner{
+    height: auto;
+    }
+    .topbanner-img{
+       
+        margin-left: 90px;
+    }
+    .service-btn{
+        width: 240px;
+    }
+    .service-card{
+        margin-left: 120px;
+        margin-bottom: 80px;
+    }
+    .about-img{
+        height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 919px) {
+    .topbanner-img {
+        width: 322px;
+        margin-top: 27px;
+        border: 10px solid #05055d;
+        border-radius: 20px;
+        height: 350px;
+        box-shadow: blueviolet;
+        box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+        -webkit-box-shadow: 4px 2px 23px 9px rgb(7 27 80 / 62%);
+        -moz-box-shadow: 4px 2px 23px 9px rgba(7,27,80,0.62);
+        margin-right: 127px;
+    }
+    .topbanner-heading{
+        font-size: 43px;
+        font-weight: 200px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .topbanner-heading2{
+        font-size: 32px;
+        
+    }
+    .service-btn{
+        width: 240px;
+    }
+    .service-card{
+        margin-left: 30px;
+        margin-bottom: 80px;
+    }
+    .fSize{
+        font-size: 19px;
+    }
+    .about-img{
+        height: auto;
+    }
+}
+@media (min-width: 920px) and (max-width: 1350px) {
+    .topbanner-heading{
+        font-size: 43px;
+        font-weight: 200px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .service-btn{
+        width: 335px;
+    }
+    .service-card{
+        margin-left: 30px;
+        margin-bottom: 80px;
+    }
+    .fSize{
+        font-size: 19px;
+    }
+    .about-img{
+        height: auto;
+    }
+
+}
